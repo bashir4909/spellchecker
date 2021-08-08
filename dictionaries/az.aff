@@ -1,7 +1,7 @@
 SET UTF-8
 TRY aliərQTntımdAsNqkyOouşzebücvçYpVhxfEgöğSBDjRUPİKLHƏFŞZCXGMÇĞIJÖÜ'
 KEY qüertyuiopöğ|asdfghjklıə|zxcvbnmçş
-LANG az_AZ
+LANG az
 FLAG long
 
 # simple a-o mistake
@@ -19,160 +19,373 @@ MAP eə
 MAP cç
 MAP sş
 
-# qalın isim, samitlə başlayan şəkilçilər
-SFX N1 Y 44
-SFX N1 0 lar .
-SFX N1 0 lara .
-SFX N1 0 laradır .
-SFX N1 0 ları .
-SFX N1 0 ların .
-SFX N1 0 larını .
-SFX N1 0 larının .
-SFX N1 0 larında .
-SFX N1 0 larındadır .
-SFX N1 0 lardadır .
-SFX N1 0 larda .
-SFX N1 0 lardadır .
-SFX N1 0 lardan .
-SFX N1 0 lardandır .
-SFX N1 0 lardır .
-SFX N1 0 da .
-SFX N1 0 dan .
-SFX N1 0 dır .
-SFX N1 0 a [^aıq]  # baş-a
-SFX N1 q ğa q
-SFX N1 0 adır [^aı]
-SFX N1 0 ya [aı] # halqa-ya
-SFX N1 0 yadır [aı]
-SFX N1 0 ın [^aı]
-SFX N1 0 nın [aı]
-SFX N1 0 ındır [^aı]
-SFX N1 0 nındır [aı]
-SFX N1 0 dadır .
-SFX N1 0 ı [^aıq]
-SFX N1 q ğı q
-SFX N1 0 nı [aı]
-SFX N1 0 sı [aı]
-SFX N1 0 ını [^aıq]
-SFX N1 q ğını q
-SFX N1 0 ına [^aıq]
-SFX N1 q ğına q
-SFX N1 0 ıdır [^aı]
-SFX N1 q ğıdır q
-SFX N1 0 ında [^aı]
-SFX N1 q ğında q
-SFX N1 0 ındadır [^aı]
-SFX N1 q ğındadır q
-SFX N1 0 ım [^aı]
-SFX N1 q ğım q
+# cəm + mənsubiyyət, cəm + hal qalın
+SFX MA Y 11
+SFX MA 0 larım/H1X1HX .
+SFX MA 0 larımız/H1X1HX .
+SFX MA 0 ların/H1X1HX .
+SFX MA 0 larınız/H1X1HX .
+SFX MA 0 ları/H1X1HX .
+SFX MA 0 lar/H1X1 .
+SFX MA 0 ların/X1 .
+SFX MA 0 lara/X1 .
+SFX MA 0 ları/X1 .
+SFX MA 0 larda/X1 .
+SFX MA 0 lardan/X1 .
 
-# SFX N1 0 lı/A1 .
+# cəm + mənsubiyyət incə
+SFX MB Y 11
+SFX MB 0 lərim/H2X2HY .
+SFX MB 0 lərimiz/H2X2HY .
+SFX MB 0 lərin/H2X2HY .
+SFX MB 0 ləriniz/H2X2HY .
+SFX MB 0 ləri/H2X2HY .
+SFX MB 0 lər/H2X2 .
+SFX MB 0 lərin/X2 .
+SFX MB 0 lərə/X2 .
+SFX MB 0 ləri/X2 .
+SFX MB 0 lərdə/X2 .
+SFX MB 0 lərdən/X2 .
 
-# incə isim, samitlə başlayan şəkilçilər
-SFX O2 Y 49
-SFX O2 0 lər .
-SFX O2 0 lərə .
-SFX O2 0 lərədir .
-SFX O2 0 ləri .
-SFX O2 0 lərin .
-SFX O2 0 lərini .
-SFX O2 0 lərinin .
-SFX O2 0 lərində .
-SFX O2 0 lərindədir .
-SFX O2 0 lərinə .
-SFX O2 0 lərinədir .
-SFX O2 0 lərdədir .
-SFX O2 0 lərdə .
-SFX O2 0 lərdədir .
-SFX O2 0 lərdən .
-SFX O2 0 lərdəndir .
-SFX O2 0 lərdir .
-SFX O2 0 də .
-SFX O2 0 dən .
-SFX O2 0 dir .
-SFX O2 0 i [^eəik]
-SFX O2 k yi k
-SFX O2 0 ni [eəi]
-SFX O2 0 si [eəi]
-SFX O2 0 sini
-SFX O2 0 sinə
-SFX O2 0 sində
-SFX O2 0 sindədir
-SFX O2 0 sindən
-SFX O2 0 sindəndir
-SFX O2 0 sidir
-SFX O2 0 ə [^eəi]  # şəhər-ə
-SFX O2 0 ədir .
-SFX O2 0 yə . # hamiləyə
-SFX O2 0 yədir .
-SFX O2 0 ini .
-SFX O2 0 inə .
-SFX O2 0 inədir .
-SFX O2 0 in [^eəi]
-SFX O2 0 nin .
-SFX O2 0 indir .
-SFX O2 0 nindir [eəi]
-SFX O2 0 idir .
-SFX O2 0 nidir [eəi]
-SFX O2 0 ində .
-SFX O2 0 indədir .
-SFX O2 0 dədir .
-SFX O2 0 im [^k]
-SFX O2 k yim k
+# mənsubiyyət qalın, -ı uzlaşması
+SFX M1 Y 10
+SFX M1 0 ım/H1X1HX [^aeəıiuü]
+SFX M1 0 m/H1X1HX [aeəıiuü]
+SFX M1 0 ımız/H1X1HX [^aeəıiuü]
+SFX M1 0 mız/H1X1HX [aeəıiuü]
+SFX M1 0 ın/H1X1HX [^aeəıiuü]
+SFX M1 0 n/H1X1HX [aeəıiuü]
+SFX M1 0 ınız/H1X1HX [^aeəıiuü]
+SFX M1 0 nız/H1X1HX [aeəıiuü]
+SFX M1 0 ı/H1X1HX  [^aeəıiuü]
+SFX M1 0 sı/H1X1HX  [aeəıiuü]
 
-# SFX N1 0 li/A1 .
+# mənsubiyyət qalın, -i uzlaşması
+SFX M2 Y 10
+SFX M2 0 im/H2X2HY [^aeəıiuü]
+SFX M2 0 m/H2X2HY [aeəıiuü]
+SFX M2 0 imiz/H2X2HY [^aeəıiuü]
+SFX M2 0 miz/H2X2HY [aeəıiuü]
+SFX M2 0 in/H2X2HY [^aeəıiuü]
+SFX M2 0 n/H2X2HY [aeəıiuü]
+SFX M2 0 iniz/H2X2HY [^aeəıiuü]
+SFX M2 0 niz/H2X2HY [aeəıiuü]
+SFX M2 0 i/H2X2HY [^aeəıiuü]
+SFX M2 0 si/H2X2HY [aeəıiuü]
 
-# feil
-SFX V1 Y 12
-SFX V1 0 dı .
-SFX V1 0 dır/V1 .
-SFX V1 0 ıb .
-SFX V1 0 ıl/V1 .
-SFX V1 0 ır/V1 .
-SFX V1 0 maq/N1 .
-SFX V1 0 ma .
-SFX V1 0 acaq .
-SFX V1 0 yacaq .
-SFX V1 0 mayacaq .
-SFX V1 0 a .
-SFX V1 0 ar . # bax-ar
+# mənsubiyyət qalın, -u uzlaşması
+SFX M3 Y 10
+SFX M3 0 um/H3X3HZ [^aeəıiuü]
+SFX M3 0 m/H3X3HZ [aeəıiuü]
+/H4X4SFX M3 0 umuz/H3X3HZ [^aeəıiuü]
+SFX M3 0 muz/H3X3HZ [aeəıiuü]
+SFX M3 0 un/H3X3HZ [^aeəıiuü]
+SFX M3 0 n/H3X3HZ [aeəıiuü]
+SFX M3 0 unuz/H3X3HZ [^aeəıiuü]
+SFX M3 0 nuz/H3X3HZ [aeəıiuü]
+SFX M3 0 u/H3X3HZ [^aeəıiuü]
+SFX M3 0 su/H3X3HZ [aeəıiuü]
 
-SFX E2 Y 16
-SFX E2 0 di .
-SFX E2 0 dir .
-SFX E2 0 dirmək .
-SFX E2 0 ib .
-SFX E2 0 ir .
-SFX E2 0 irəcək .
-SFX E2 0 irib .
-SFX E2 0 mək .
-SFX E2 0 mə/O2 .
-SFX E2 0 məyə .
-SFX E2 0 əcək .
-SFX E2 0 yəcək .
-SFX E2 0 məyəcək .
-SFX E2 0 ə .
-SFX E2 0 məyə .
-SFX E2 0 ər . # gəl-ər
+# mənsubiyyət qalın, -ü uzlaşması
+SFX M4 Y 10
+SFX M4 0 üm/H4X4HW [^aeəıiuü]
+SFX M4 0 m/H4X4HW [aeəıiuü]
+SFX M4 0 ümüz/H4X4HW [^aeəıiuü]
+SFX M4 0 müz/H4X4HW [aeəıiuü]
+SFX M4 0 ün/H4X4HW [^aeəıiuü]
+SFX M4 0 n/H4X4HW [aeəıiuü]
+SFX M4 0 ünüz/H4X4HW [^aeəıiuü]
+SFX M4 0 nüz/H4X4HW [aeəıiuü]
+SFX M4 0 ü/H4X4HW [^aeəıiuü]
+SFX M4 0 sü/H4X4HW [aeəıiuü]
 
-# Conjunction
-SFX F1 Y 4
-SFX F1 0 ı [^aıoueəiöüq]
-SFX F1 q ğı q  # ancağı
-SFX F1 nı .
-SFX F1 0 sı .
+# Hal şəkilçiləri -ı uzlaşması
+SFX H1 Y 8
+SFX H1 0 ın [^aeəıiuü]
+SFX H1 0 nın [aeəıiuü]
+SFX H1 0 a [^aeəıiuü]
+SFX H1 0 ya [aeəıiuü]
+SFX H1 0 ı [^aeəıiuü]
+SFX H1 0 nı [aeəıiuü]
+SFX H1 0 da .
+SFX H1 0 dan .
 
-SFX F3 Y 3
-SFX F3 0 u [^aıoueəiöü]
-SFX F3 0 nu .
-SFX F3 0 su.
+# Hal şəkilçiləri -i uzlaşması
+SFX H2 Y 8
+SFX H2 0 in [^aeəıiuü]
+SFX H2 0 nin [aeəıiuü]
+SFX H2 0 ə [^aeəıiuü]
+SFX H2 0 yə [aeəıiuü]
+SFX H2 0 i [^aeəıiuü]
+SFX H2 0 ni [aeəıiuü]
+SFX H2 0 də .
+SFX H2 0 dən .
 
-SFX G2 Y 3
-SFX G2 0 i [^aıoueəiöü]
-SFX G2 0 ni .
-SFX G2 0 si .
+# Hal şəkilçiləri -u uzlaşması
+SFX H3 Y 8
+SFX H3 0 un [^aeəıiuü]
+SFX H3 0 nun [aeəıiuü]
+SFX H3 0 a [^aeəıiuü]
+SFX H3 0 ya [aeəıiuü]
+SFX H3 0 u [^aeəıiuü]
+SFX H3 0 nu [aeəıiuü]
+SFX H3 0 da .
+SFX H3 0 dan .
 
-SFX G4 Y 3
-SFX G4 0 ü [^aıoueəiöü]
-SFX G4 0 nü .
-SFX G4 0 sü .
+# Hal şəkilçiləri -ü uzlaşması
+SFX H4 Y 8
+SFX H4 0 ə [^aeəıiuü]
+SFX H4 0 yə [aeəıiuü]
+SFX H4 0 i [^aeəıiuü]
+SFX H4 0 nü [aeəıiuü]
+SFX H4 0 də .
+SFX H4 0 dən .
+
+# Xəbərlik -ı uzlaşması
+SFX X1 Y 8
+SFX X1 0 am [^aeəıiuü]
+SFX X1 0 yam [aeəıiuü]
+SFX X1 0 ıq [^aeəıiuü]
+SFX X1 0 yıq [aeəıiuü]
+SFX X1 0 san 
+SFX X1 0 sınız 
+SFX X1 0 dır 
+SFX X1 0 dırlar 
+
+# Xəbərlik -i uzlaşması
+SFX X2 Y 8
+SFX X2 0 əm [^aeəıiuü]
+SFX X2 0 yəm [aeəıiuü]
+SFX X2 0 ik [^aeəıiuü]
+SFX X2 0 yik [aeəıiuü]
+SFX X2 0 sən 
+SFX X2 0 siniz 
+SFX X2 0 dir 
+SFX X2 0 dirlər 
+
+# Xəbərlik -u uzlaşması
+SFX X3 Y 8
+SFX X3 0 am [^aeəıiuü]
+SFX X3 0 yam [aeəıiuü]
+SFX X3 0 uq [^aeəıiuü]
+SFX X3 0 yuq [aeəıiuü]
+SFX X3 0 san 
+SFX X3 0 sunuz 
+SFX X3 0 dur 
+SFX X3 0 durlar 
+
+# Xəbərlik -ü uzlaşması
+SFX X4 Y 8
+SFX X4 0 əm [^aeəıiuü]
+SFX X4 0 yəm [aeəıiuü]
+SFX X4 0 ük [^aeəıiuü]
+SFX X4 0 yük [aeəıiuü]
+SFX X4 0 sən 
+SFX X4 0 sünüz 
+SFX X4 0 dür 
+SFX X4 0 dürlər 
+
+# hal + xəbərlik, ı uzlaşması
+SFX HX Y 48
+SFX HX 0 ınam [^aeəıiuü]
+SFX HX 0 ınıq [^aeəıiuü]
+SFX HX 0 ınsan [^aeəıiuü]
+SFX HX 0 ınsınız [^aeəıiuü]
+SFX HX 0 ındır [^aeəıiuü]
+SFX HX 0 ındırlar [^aeəıiuü]
+SFX HX 0 nam  [aeəıiuü]
+SFX HX 0 nıq  [aeəıiuü]
+SFX HX 0 nsan [aeəıiuü]
+SFX HX 0 nsınız [aeəıiuü]
+SFX HX 0 ndır [aeəıiuü]
+SFX HX 0 ndırlar [aeəıiuü]
+SFX HX 0 ayam [^aeəıiuü]
+SFX HX 0 ayıq [^aeəıiuü]
+SFX HX 0 asan [^aeəıiuü]
+SFX HX 0 asınız [^aeəıiuü]
+SFX HX 0 adır [^aeəıiuü]
+SFX HX 0 adırlar [^aeəıiuü]
+SFX HX 0 yayam  [aeəıiuü]
+SFX HX 0 yayıq  [aeəıiuü]
+SFX HX 0 yasan  [aeəıiuü]
+SFX HX 0 yasınız [aeəıiuü]
+SFX HX 0 yadır  [aeəıiuü]
+SFX HX 0 yadırlar [aeəıiuü]
+SFX HX 0 ıyam   [^aeəıiuü]
+SFX HX 0 ıyıq   [^aeəıiuü]
+SFX HX 0 ısan   [^aeəıiuü]
+SFX HX 0 ısınız [^aeəıiuü]
+SFX HX 0 ıdır   [^aeəıiuü]
+SFX HX 0 ıdırlar [^aeəıiuü]
+SFX HX 0 nıyam   [^aeəıiuü]
+SFX HX 0 nıyıq   [^aeəıiuü]
+SFX HX 0 nısan   [^aeəıiuü]
+SFX HX 0 nısınız [^aeəıiuü]
+SFX HX 0 nıdır   [^aeəıiuü]
+SFX HX 0 nıdırlar [^aeəıiuü]
+SFX HX 0 dayam   [^aeəıiuü]
+SFX HX 0 dayıq   [^aeəıiuü]
+SFX HX 0 dasan   [^aeəıiuü]
+SFX HX 0 dasınız [^aeəıiuü]
+SFX HX 0 dadır   [^aeəıiuü]
+SFX HX 0 dadırlar [^aeəıiuü]
+SFX HX 0 danam [^aeəıiuü]
+SFX HX 0 danıq [^aeəıiuü]
+SFX HX 0 dansan [^aeəıiuü]
+SFX HX 0 dansınız [^aeəıiuü]
+SFX HX 0 dandır [^aeəıiuü]
+SFX HX 0 dandırlar [^aeəıiuü]
+
+# hal + xəbərlik, i uzlaşması
+SFX HY Y 48
+SFX HY 0 inəm [^aeəıiuü]
+SFX HY 0 inik [^aeəıiuü]
+SFX HY 0 insən [^aeəıiuü]
+SFX HY 0 insiniz [^aeəıiuü]
+SFX HY 0 indir [^aeəıiuü]
+SFX HY 0 indirlər [^aeəıiuü]
+SFX HY 0 nəm  [aeəıiuü]
+SFX HY 0 nik  [aeəıiuü]
+SFX HY 0 nsən [aeəıiuü]
+SFX HY 0 nsiniz [aeəıiuü]
+SFX HY 0 ndir [aeəıiuü]
+SFX HY 0 ndirlər [aeəıiuü]
+SFX HY 0 əyəm [^aeəıiuü]
+SFX HY 0 əyik [^aeəıiuü]
+SFX HY 0 əsən [^aeəıiuü]
+SFX HY 0 əsiniz [^aeəıiuü]
+SFX HY 0 ədir [^aeəıiuü]
+SFX HY 0 ədirlər [^aeəıiuü]
+SFX HY 0 yəyəm  [aeəıiuü]
+SFX HY 0 yəyik  [aeəıiuü]
+SFX HY 0 yəsən  [aeəıiuü]
+SFX HY 0 yəsiniz [aeəıiuü]
+SFX HY 0 yədir  [aeəıiuü]
+SFX HY 0 yədirlər [aeəıiuü]
+SFX HY 0 iyəm   [^aeəıiuü]
+SFX HY 0 iyik   [^aeəıiuü]
+SFX HY 0 isən   [^aeəıiuü]
+SFX HY 0 isiniz [^aeəıiuü]
+SFX HY 0 idir   [^aeəıiuü]
+SFX HY 0 idirlər [^aeəıiuü]
+SFX HY 0 niyəm   [^aeəıiuü]
+SFX HY 0 niyik   [^aeəıiuü]
+SFX HY 0 nisən   [^aeəıiuü]
+SFX HY 0 nisiniz [^aeəıiuü]
+SFX HY 0 nidir   [^aeəıiuü]
+SFX HY 0 nidirlər [^aeəıiuü]
+SFX HY 0 dəyəm   [^aeəıiuü]
+SFX HY 0 dəyik   [^aeəıiuü]
+SFX HY 0 dəsən   [^aeəıiuü]
+SFX HY 0 dəsiniz [^aeəıiuü]
+SFX HY 0 dədir   [^aeəıiuü]
+SFX HY 0 dədirlər [^aeəıiuü]
+SFX HY 0 dənəm [^aeəıiuü]
+SFX HY 0 dənik [^aeəıiuü]
+SFX HY 0 dənsən [^aeəıiuü]
+SFX HY 0 dənsiniz [^aeəıiuü]
+SFX HY 0 dəndir [^aeəıiuü]
+SFX HY 0 dəndirlər [^aeəıiuü]
+
+# hal + xəbərlik, u uzlaşması
+SFX HZ Y 48
+SFX HZ 0 unam [^aeəıiuü]
+SFX HZ 0 unuq [^aeəıiuü]
+SFX HZ 0 unsan [^aeəıiuü]
+SFX HZ 0 unsunuz [^aeəıiuü]
+SFX HZ 0 undur [^aeəıiuü]
+SFX HZ 0 undurlar [^aeəıiuü]
+SFX HZ 0 nam  [aeəıiuü]
+SFX HZ 0 nuq  [aeəıiuü]
+SFX HZ 0 nsan [aeəıiuü]
+SFX HZ 0 nsunuz [aeəıiuü]
+SFX HZ 0 ndır [aeəıiuü]
+SFX HZ 0 ndırlar [aeəıiuü]
+SFX HZ 0 ayam [^aeəıiuü]
+SFX HZ 0 ayıq [^aeəıiuü]
+SFX HZ 0 asan [^aeəıiuü]
+SFX HZ 0 asınız [^aeəıiuü]
+SFX HZ 0 adır [^aeəıiuü]
+SFX HZ 0 adırlar [^aeəıiuü]
+SFX HZ 0 yayam  [aeəıiuü]
+SFX HZ 0 yayıq  [aeəıiuü]
+SFX HZ 0 yasan  [aeəıiuü]
+SFX HZ 0 yasınız [aeəıiuü]
+SFX HZ 0 yadır  [aeəıiuü]
+SFX HZ 0 yadırlar [aeəıiuü]
+SFX HZ 0 uyam   [^aeəıiuü]
+SFX HZ 0 uyuq   [^aeəıiuü]
+SFX HZ 0 usan   [^aeəıiuü]
+SFX HZ 0 usunuz [^aeəıiuü]
+SFX HZ 0 udur   [^aeəıiuü]
+SFX HZ 0 udurlar [^aeəıiuü]
+SFX HZ 0 nuyam   [^aeəıiuü]
+SFX HZ 0 nuyıq   [^aeəıiuü]
+SFX HZ 0 nusan   [^aeəıiuü]
+SFX HZ 0 nusunuz [^aeəıiuü]
+SFX HZ 0 nudur   [^aeəıiuü]
+SFX HZ 0 nudurlar [^aeəıiuü]
+SFX HZ 0 dayam   [^aeəıiuü]
+SFX HZ 0 dayuq   [^aeəıiuü]
+SFX HZ 0 dasan   [^aeəıiuü]
+SFX HZ 0 dasınız [^aeəıiuü]
+SFX HZ 0 dadır   [^aeəıiuü]
+SFX HZ 0 dadırlar [^aeəıiuü]
+SFX HZ 0 danam [^aeəıiuü]
+SFX HZ 0 danıq [^aeəıiuü]
+SFX HZ 0 dansan [^aeəıiuü]
+SFX HZ 0 dansınız [^aeəıiuü]
+SFX HZ 0 dandır [^aeəıiuü]
+SFX HZ 0 dandırlar [^aeəıiuü]
+
+# hal + xəbərlik, ü uzlaşması
+SFX HW Y 48
+SFX HW 0 ünəm [^aeəıiuü]
+SFX HW 0 ünük [^aeəıiuü]
+SFX HW 0 ünsən [^aeəıiuü]
+SFX HW 0 ünsünüz [^aeəıiuü]
+SFX HW 0 ündür [^aeəıiuü]
+SFX HW 0 ündürlər [^aeəıiuü]
+SFX HW 0 nəm  [aeəıiuü]
+SFX HW 0 nük  [aeəıiuü]
+SFX HW 0 nsən [aeəıiuü]
+SFX HW 0 nsünüz [aeəıiuü]
+SFX HW 0 ndür [aeəıiuü]
+SFX HW 0 ndürlər [aeəıiuü]
+SFX HW 0 əyəm [^aeəıiuü]
+SFX HW 0 əyik [^aeəıiuü]
+SFX HW 0 əsən [^aeəıiuü]
+SFX HW 0 əsiniz [^aeəıiuü]
+SFX HW 0 ədir [^aeəıiuü]
+SFX HW 0 ədirlər [^aeəıiuü]
+SFX HW 0 yəyəm  [aeəıiuü]
+SFX HW 0 yəyik  [aeəıiuü]
+SFX HW 0 yəsən  [aeəıiuü]
+SFX HW 0 yəsiniz [aeəıiuü]
+SFX HW 0 yədir  [aeəıiuü]
+SFX HW 0 yədirlər [aeəıiuü]
+SFX HW 0 üyəm   [^aeəıiuü]
+SFX HW 0 üyük   [^aeəıiuü]
+SFX HW 0 üsən   [^aeəıiuü]
+SFX HW 0 üsünüz [^aeəıiuü]
+SFX HW 0 üdür   [^aeəıiuü]
+SFX HW 0 üdürlər [^aeəıiuü]
+SFX HW 0 nüyəm   [^aeəıiuü]
+SFX HW 0 nüyük   [^aeəıiuü]
+SFX HW 0 nüsən   [^aeəıiuü]
+SFX HW 0 nüsünüz [^aeəıiuü]
+SFX HW 0 nüdür   [^aeəıiuü]
+SFX HW 0 nüdürlər [^aeəıiuü]
+SFX HW 0 dəyəm   [^aeəıiuü]
+SFX HW 0 dəyik   [^aeəıiuü]
+SFX HW 0 dəsən   [^aeəıiuü]
+SFX HW 0 dəsiniz [^aeəıiuü]
+SFX HW 0 dədir   [^aeəıiuü]
+SFX HW 0 dədirlər [^aeəıiuü]
+SFX HW 0 dənəm [^aeəıiuü]
+SFX HW 0 dənik [^aeəıiuü]
+SFX HW 0 dənsən [^aeəıiuü]
+SFX HW 0 dənsiniz [^aeəıiuü]
+SFX HW 0 dəndir [^aeəıiuü]
+SFX HW 0 dəndirlər [^aeəıiuü]
+
