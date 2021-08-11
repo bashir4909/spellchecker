@@ -149,10 +149,10 @@ SFX X1 0 am [^aeəıiuü]
 SFX X1 0 yam [aeəıiuü]
 SFX X1 0 ıq [^aeəıiuü]
 SFX X1 0 yıq [aeəıiuü]
-SFX X1 0 san 
-SFX X1 0 sınız 
-SFX X1 0 dır 
-SFX X1 0 dırlar 
+SFX X1 0 san .
+SFX X1 0 sınız .
+SFX X1 0 dır .
+SFX X1 0 dırlar .
 
 # Xəbərlik -i uzlaşması
 SFX X2 Y 8
@@ -160,10 +160,10 @@ SFX X2 0 əm [^aeəıiuü]
 SFX X2 0 yəm [aeəıiuü]
 SFX X2 0 ik [^aeəıiuü]
 SFX X2 0 yik [aeəıiuü]
-SFX X2 0 sən 
-SFX X2 0 siniz 
-SFX X2 0 dir 
-SFX X2 0 dirlər 
+SFX X2 0 sən .
+SFX X2 0 siniz .
+SFX X2 0 dir .
+SFX X2 0 dirlər .
 
 # Xəbərlik -u uzlaşması
 SFX X3 Y 8
@@ -171,10 +171,10 @@ SFX X3 0 am [^aeəıiuü]
 SFX X3 0 yam [aeəıiuü]
 SFX X3 0 uq [^aeəıiuü]
 SFX X3 0 yuq [aeəıiuü]
-SFX X3 0 san 
-SFX X3 0 sunuz 
-SFX X3 0 dur 
-SFX X3 0 durlar 
+SFX X3 0 san .
+SFX X3 0 sunuz .
+SFX X3 0 dur .
+SFX X3 0 durlar .
 
 # Xəbərlik -ü uzlaşması
 SFX X4 Y 8
@@ -182,10 +182,10 @@ SFX X4 0 əm [^aeəıiuü]
 SFX X4 0 yəm [aeəıiuü]
 SFX X4 0 ük [^aeəıiuü]
 SFX X4 0 yük [aeəıiuü]
-SFX X4 0 sən 
-SFX X4 0 sünüz 
-SFX X4 0 dür 
-SFX X4 0 dürlər 
+SFX X4 0 sən .
+SFX X4 0 sünüz .
+SFX X4 0 dür .
+SFX X4 0 dürlər .
 
 # hal + xəbərlik, ı uzlaşması
 SFX HX Y 48
@@ -219,24 +219,24 @@ SFX HX 0 ısan   [^aeəıiuü]
 SFX HX 0 ısınız [^aeəıiuü]
 SFX HX 0 ıdır   [^aeəıiuü]
 SFX HX 0 ıdırlar [^aeəıiuü]
-SFX HX 0 nıyam   [^aeəıiuü]
-SFX HX 0 nıyıq   [^aeəıiuü]
-SFX HX 0 nısan   [^aeəıiuü]
-SFX HX 0 nısınız [^aeəıiuü]
-SFX HX 0 nıdır   [^aeəıiuü]
-SFX HX 0 nıdırlar [^aeəıiuü]
-SFX HX 0 dayam   [^aeəıiuü]
-SFX HX 0 dayıq   [^aeəıiuü]
-SFX HX 0 dasan   [^aeəıiuü]
-SFX HX 0 dasınız [^aeəıiuü]
-SFX HX 0 dadır   [^aeəıiuü]
-SFX HX 0 dadırlar [^aeəıiuü]
-SFX HX 0 danam [^aeəıiuü]
-SFX HX 0 danıq [^aeəıiuü]
-SFX HX 0 dansan [^aeəıiuü]
-SFX HX 0 dansınız [^aeəıiuü]
-SFX HX 0 dandır [^aeəıiuü]
-SFX HX 0 dandırlar [^aeəıiuü]
+SFX HX 0 nıyam   [aeəıiuü]
+SFX HX 0 nıyıq   [aeəıiuü]
+SFX HX 0 nısan   [aeəıiuü]
+SFX HX 0 nısınız [aeəıiuü]
+SFX HX 0 nıdır   [aeəıiuü]
+SFX HX 0 nıdırlar [aeəıiuü]
+SFX HX 0 dayam .
+SFX HX 0 dayıq . 
+SFX HX 0 dasan . 
+SFX HX 0 dasınız .
+SFX HX 0 dadır .
+SFX HX 0 dadırlar .
+SFX HX 0 danam .
+SFX HX 0 danıq .
+SFX HX 0 dansan .
+SFX HX 0 dansınız .
+SFX HX 0 dandır .
+SFX HX 0 dandırlar .
 
 # hal + xəbərlik, i uzlaşması
 SFX HY Y 48
@@ -270,24 +270,24 @@ SFX HY 0 isən   [^aeəıiuü]
 SFX HY 0 isiniz [^aeəıiuü]
 SFX HY 0 idir   [^aeəıiuü]
 SFX HY 0 idirlər [^aeəıiuü]
-SFX HY 0 niyəm   [^aeəıiuü]
-SFX HY 0 niyik   [^aeəıiuü]
-SFX HY 0 nisən   [^aeəıiuü]
-SFX HY 0 nisiniz [^aeəıiuü]
-SFX HY 0 nidir   [^aeəıiuü]
-SFX HY 0 nidirlər [^aeəıiuü]
-SFX HY 0 dəyəm   [^aeəıiuü]
-SFX HY 0 dəyik   [^aeəıiuü]
-SFX HY 0 dəsən   [^aeəıiuü]
-SFX HY 0 dəsiniz [^aeəıiuü]
-SFX HY 0 dədir   [^aeəıiuü]
-SFX HY 0 dədirlər [^aeəıiuü]
-SFX HY 0 dənəm [^aeəıiuü]
-SFX HY 0 dənik [^aeəıiuü]
-SFX HY 0 dənsən [^aeəıiuü]
-SFX HY 0 dənsiniz [^aeəıiuü]
-SFX HY 0 dəndir [^aeəıiuü]
-SFX HY 0 dəndirlər [^aeəıiuü]
+SFX HY 0 niyəm   [aeəıiuü]
+SFX HY 0 niyik   [aeəıiuü]
+SFX HY 0 nisən   [aeəıiuü]
+SFX HY 0 nisiniz [aeəıiuü]
+SFX HY 0 nidir   [aeəıiuü]
+SFX HY 0 nidirlər [aeəıiuü]
+SFX HY 0 dəyəm .
+SFX HY 0 dəyik .
+SFX HY 0 dəsən .
+SFX HY 0 dəsiniz .
+SFX HY 0 dədir .
+SFX HY 0 dədirlər .
+SFX HY 0 dənəm .
+SFX HY 0 dənik .
+SFX HY 0 dənsən .
+SFX HY 0 dənsiniz .
+SFX HY 0 dəndir .
+SFX HY 0 dəndirlər .
 
 # hal + xəbərlik, u uzlaşması
 SFX HZ Y 48
@@ -321,24 +321,24 @@ SFX HZ 0 usan   [^aeəıiuü]
 SFX HZ 0 usunuz [^aeəıiuü]
 SFX HZ 0 udur   [^aeəıiuü]
 SFX HZ 0 udurlar [^aeəıiuü]
-SFX HZ 0 nuyam   [^aeəıiuü]
-SFX HZ 0 nuyıq   [^aeəıiuü]
-SFX HZ 0 nusan   [^aeəıiuü]
-SFX HZ 0 nusunuz [^aeəıiuü]
-SFX HZ 0 nudur   [^aeəıiuü]
-SFX HZ 0 nudurlar [^aeəıiuü]
-SFX HZ 0 dayam   [^aeəıiuü]
-SFX HZ 0 dayuq   [^aeəıiuü]
-SFX HZ 0 dasan   [^aeəıiuü]
-SFX HZ 0 dasınız [^aeəıiuü]
-SFX HZ 0 dadır   [^aeəıiuü]
-SFX HZ 0 dadırlar [^aeəıiuü]
-SFX HZ 0 danam [^aeəıiuü]
-SFX HZ 0 danıq [^aeəıiuü]
-SFX HZ 0 dansan [^aeəıiuü]
-SFX HZ 0 dansınız [^aeəıiuü]
-SFX HZ 0 dandır [aeəıiuü]
-SFX HZ 0 dandırlar [^aeəıiuü]
+SFX HZ 0 nuyam   [aeəıiuü]
+SFX HZ 0 nuyıq   [aeəıiuü]
+SFX HZ 0 nusan   [aeəıiuü]
+SFX HZ 0 nusunuz [aeəıiuü]
+SFX HZ 0 nudur   [aeəıiuü]
+SFX HZ 0 nudurlar [aeəıiuü]
+SFX HZ 0 dayam .
+SFX HZ 0 dayuq .
+SFX HZ 0 dasan .
+SFX HZ 0 dasınız .
+SFX HZ 0 dadır .
+SFX HZ 0 dadırlar .
+SFX HZ 0 danam .
+SFX HZ 0 danıq .
+SFX HZ 0 dansan .
+SFX HZ 0 dansınız .
+SFX HZ 0 dandır .
+SFX HZ 0 dandırlar .
 
 # hal + xəbərlik, ü uzlaşması
 SFX HW Y 48
@@ -372,22 +372,21 @@ SFX HW 0 üsən   [^aeəıiuü]
 SFX HW 0 üsünüz [^aeəıiuü]
 SFX HW 0 üdür   [^aeəıiuü]
 SFX HW 0 üdürlər [^aeəıiuü]
-SFX HW 0 nüyəm   [^aeəıiuü]
-SFX HW 0 nüyük   [^aeəıiuü]
-SFX HW 0 nüsən   [^aeəıiuü]
-SFX HW 0 nüsünüz [^aeəıiuü]
-SFX HW 0 nüdür   [^aeəıiuü]
-SFX HW 0 nüdürlər [^aeəıiuü]
-SFX HW 0 dəyəm   [^aeəıiuü]
-SFX HW 0 dəyik   [^aeəıiuü]
-SFX HW 0 dəsən   [^aeəıiuü]
-SFX HW 0 dəsiniz [^aeəıiuü]
-SFX HW 0 dədir   [^aeəıiuü]
-SFX HW 0 dədirlər [^aeəıiuü]
-SFX HW 0 dənəm [^aeəıiuü]
-SFX HW 0 dənik [^aeəıiuü]
-SFX HW 0 dənsən [^aeəıiuü]
-SFX HW 0 dənsiniz [^aeəıiuü]
-SFX HW 0 dəndir [^aeəıiuü]
-SFX HW 0 dəndirlər [^aeəıiuü]
-
+SFX HW 0 nüyəm   [aeəıiuü]
+SFX HW 0 nüyük   [aeəıiuü]
+SFX HW 0 nüsən   [aeəıiuü]
+SFX HW 0 nüsünüz [aeəıiuü]
+SFX HW 0 nüdür   [aeəıiuü]
+SFX HW 0 nüdürlər [aeəıiuü]
+SFX HW 0 dəyəm .
+SFX HW 0 dəyik .
+SFX HW 0 dəsən .
+SFX HW 0 dəsiniz .
+SFX HW 0 dədir .
+SFX HW 0 dədirlər .
+SFX HW 0 dənəm .
+SFX HW 0 dənik .
+SFX HW 0 dənsən .
+SFX HW 0 dənsiniz .
+SFX HW 0 dəndir .
+SFX HW 0 dəndirlər .
