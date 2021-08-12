@@ -28,6 +28,20 @@ Word marks:
 * 3 - qalın [o,u] - du
 * 4 - qalın [ö,ü] - dü
 
+# For testing
+
+To test dictionaries I plan to create list of correct words and see if they can be recognised. To do so,
+
+* Install hunspell. On Linux relevant command is `sudo apt install hunspell hunspell-tools`
+* `/test` directory contains txt files with correct word on each line
+* *cd* into `/dictionaries` folder. Run `hunspell -a -d ../test/isim.txt`, it will print * for words it identifies as correct and # with suggestions otherwise.
+
+You can also test words interactively by
+`
+cd dictionaries
+hunspell -a -d az
+`
+
 # License
 Project is licensed under MPLv2 License, copy of the license can be obtained within project source code (LICENSE file).
 
